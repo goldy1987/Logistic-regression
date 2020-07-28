@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("/static/images/6.jpg");
+	background-size: cover;
+	background-position: top;
+	font-family: sans-serif;
+
+}
+
+form{
+	color:  #00e600
+}
+
+legend {
+  color: #ff0066;
+}
+
+fieldset{
+  display: inline-block;
+  margin-left: 550px;
+  margin-right: 500px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 20px groove (internal value);
+  border-color: #4dff4d
+
+}
+
+.form > label
+{
+  float: left;
+  clear: right;
+}
+
+.form > input
+{
+  float: right;
+}
+
+.info input{
+	margin-left: 15em;
+}
+
+.info label{
+	position: absolute;
+}
+
+.links{
+	margin-top: 50px
+
+}

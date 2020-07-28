@@ -1,0 +1,40 @@
+	<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<title>Diabeties Predictor</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body style="background-image: url(/static/images/6.jpg); background-size: cover;>
+	<div class="content">
+		<h1 style="text-align: center; color: #ffff00; text-underline-position: all; ">Predict your chances of Diabatic</h1>
+		<div class="form">
+			<form action="/predict" method="POST">
+				<fieldset class="info">
+					<legend><h3>Fill the Details:</h3></legend>
+					<label for="Glucose">Glucose Level   :</label>
+					<input type="number" name="Glucose" step="any" id="Glucose" placeholder="Glucose Level"><br><br>
+					<label for="BloodPressure">BloodPressure:</label>
+					<input type="number" name="BloodPressure" step="any" id="BloodPressure" placeholder="BloodPressure"><br><br>
+					<label for="Insulin">Insulin Level:</label>
+					<input type="number" name="Insulin" step="any" id="Insulin" placeholder="Insulin Level"><br><br>
+					<label for="BMI">BMI:</label>
+					<input type="number" name="BMI" step="any" id="BMI" placeholder="BMI"><br><br>
+					<label for="Pregnancies">Pregnancies:</label>
+					<input type="number" name="Pregnancies" step="any" id="Pregnancies" placeholder="Pregnancies"><br><br>
+					<label for="SkinThickness">Skin Thickness:</label>
+					<input type="number" name="SkinThickness" step="any" id="SkinThickness" placeholder="Skin Thickness"><br><br>
+					<label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction:</label>
+					<input type="number" name="DiabetesPedigreeFunction" step="any" id="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function"><br><br>
+					<label for="Age">Age:</label>
+					<input type="number" name="Age" step="any" id="Age" placeholder="Age"><br><br>
+					<input type="submit" value="Predict" align="rel">
+				</fieldset>
+				
+			</form>
+		</div>
+		<div class="links" align="center">
+			<a href="#"; style="color: #33ffff">GitHub Link</a>			
+		</div>
+	</div>
+</body>
+</html>
